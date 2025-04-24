@@ -64,9 +64,9 @@ const TableHeader = () => (
 );
 
 const CharacterRow = ({ index, character, isOpen, toggleRow, deleteRow, childrenData }) => (
-  <React.Fragment>
+  <>
     <tr
-      className="cursor-pointer hover:bg-gray-50 transition group"
+      className="cursor-pointer hover:bg-green-50 transition group"
       onClick={() => toggleRow(index)}
     >
       <td className="p-2">{character.ID}</td>
@@ -90,7 +90,7 @@ const CharacterRow = ({ index, character, isOpen, toggleRow, deleteRow, children
       </td>
     </tr>
     {isOpen && <CharacterDetails childrenData={childrenData} />}
-  </React.Fragment>
+  </>
 );
 
 const CharacterDetails = ({ childrenData }) => (
