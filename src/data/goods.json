@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "The Great Gatsby",
+        "category": "3",
+        "price": 10.99,
+        "description": "A classic novel by F. Scott Fitzgerald."
+    },
+    {
+        "id": 2,
+        "name": "1984",
+        "category": "3",
+        "price": 8.99,
+        "description": "A dystopian novel by George Orwell."
+    },
+    {
+        "id": 3,
+        "name": "Wireless Mouse",
+        "category": "1",
+        "price": 25.99,
+        "description": "A high-precision wireless mouse with ergonomic design."
+    },
+    {
+        "id": 4,
+        "name": "Bluetooth Headphones",
+        "category": "1",
+        "price": 59.99,
+        "description": "Noise-cancelling over-ear headphones with Bluetooth connectivity."
+    },
+    {
+        "id": 5,
+        "name": "Smartphone",
+        "category": "1",
+        "price": 699.99,
+        "description": "Latest model smartphone with advanced features."
+    },
+    {
+        "id": 6,
+        "name": "Yoga Mat",
+        "category": "2",
+        "price": 20.00,
+        "description": "Non-slip yoga mat for all types of exercises."
+    },
+    {
+        "id": 7,
+        "name": "Tennis Racket",
+        "category": "2",
+        "price": 89.99,
+        "description": "Lightweight tennis racket with excellent grip."
+    },
+    {
+        "id": 8,
+        "name": "Football",
+        "category": "2",
+        "price": 25.00,
+        "description": "Professional-grade football for all weather conditions."
+    },
+    {
+        "id": 9,
+        "name": "Laptop",
+        "category": "1",
+        "price": 999.99,
+        "description": "High-performance laptop with 16GB RAM and 512GB SSD."
+    },
+    {
+        "id": 10,
+        "name": "Running Shoes",
+        "category": "2",
+        "price": 75.00,
+        "description": "Comfortable and durable running shoes for all terrains."
+    }
+]
