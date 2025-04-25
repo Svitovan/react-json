@@ -1,4 +1,3 @@
-// CharacterTable.jsx
 import React, { useState } from "react";
 import data from "./data/data.json";
 
@@ -24,7 +23,7 @@ const CharacterTable = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Characters Table</h1>
+      <h1 className="text-2xl font-bold mb-4 uppercase bg-slate-300 text-slate-700">Characters Table</h1>
       <table className="w-full border border-gray-300">
         <TableHeader />
         <tbody>
@@ -46,7 +45,7 @@ const CharacterTable = () => {
 };
 
 const TableHeader = () => (
-  <thead className="bg-gray-100 text-center">
+  <thead className="bg-slate-300 text-center">
     <tr>
       <th className="p-2">#</th>
       <th className="p-2">Name</th>
@@ -77,7 +76,7 @@ const CharacterRow = ({ index, character, isOpen, toggleRow, deleteRow, children
       <td className="p-2">{character.Weight}</td>
       <td className="p-2">{character.Born}</td>
       <td className="p-2">{character["In space since"]}</td>
-      <td className="p-2">{character["Beer consumption (l/y)"]}</td>
+      <td className="p-3">{character["Beer consumption (l/y)"]}</td>
       <td className="p-2">{character["Knows the answer?"]}</td>
       <td
         className="p-2 text-center"
@@ -86,7 +85,7 @@ const CharacterRow = ({ index, character, isOpen, toggleRow, deleteRow, children
           deleteRow(index);
         }}
       >
-        <span className="text-red-500 hover:text-red-700 text-lg cursor-pointer">❌</span>
+        <span className="text-red-500 text-lg cursor-pointer">❌</span>
       </td>
     </tr>
     {isOpen && <CharacterDetails childrenData={childrenData} />}
